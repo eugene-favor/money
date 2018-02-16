@@ -1,6 +1,6 @@
 pipeline:
   backend:
     group: build
-    image: phpunit
+    image: phpunit/phpunit
     commands:
       - phpunit
