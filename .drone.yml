@@ -3,4 +3,4 @@ pipeline:
     group: build
     image: phpunit/phpunit
     commands:
-      - phpunit
+      - phpunit tests
