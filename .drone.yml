@@ -3,4 +3,4 @@ pipeline:
     group: build
     image: phpunit/phpunit
     commands:
-      - phpunit build/phpunit.xml
+      - phpunit --configuration build/phpunit.xml
